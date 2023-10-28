@@ -1,0 +1,11 @@
+a:hover{
+    color:red;
+
+}
+p{
+    color: blue;
+    background-color: yellow;
+    text-indent: 50px;
+    text-shadow: 5px 5px 5px red;
+    text-align: justify;
+}

@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <h1>Course Registration</h1>
+    <form action="">
+       <fieldset>
+           <legend>Personal Details:</legend>
+           <table>
+               <tr>
+                   <td><!--below placeholder means gives an example of input type-->
+                       <label>First Name</label></td>
+                   <td><input type="text" name="FN" placeholder="Ex:Rohit" size="15" maxlength="10"></td>
+               </tr>
+               <tr>
+                   <td><label>Surname</label></td>
+                   <td><input type="text" name="LN" placeholder="Ex:Shetty" size="15"></td>
+               </tr>
+               <tr>
+                   <td> <!--below tel is a telephone type input number-->
+                       <label>Mobile Number</label></td>
+                   <td><input type="tel" name="mob" placeholder="Ex:123-123-1234" size="15"></td>
+               </tr>
+               <tr>
+                   <td><label>Email</label></td>
+                   <td><input type="email" name="mail" placeholder="abcd12@gmail.ccom"></td>
+               </tr>
+               <tr>
+                   <td><label>DOB</label></td>
+                   <td><input type="date" name="date"></td>
+               </tr>
+               <tr>
+                   <td><label>Gender</label></td>
+                   <td><input type="radio" name="Gender" value="M">Male<input type="radio" name="Gender" value="F">Female<input type="radio" name="Gender" value="c">Custom</td>
+               </tr>
+               <tr>
+                   <td><label>College</label></td>
+                       <td>
+                        <input typr="data" name="data">
+                       </td>
+               </tr>
+               <tr>
+                   <td><label>Upload Picture</label></td>
+                   <td><input type="file" name="pic"></td>
+               </tr>
+           </table>
+   
+       
+       
+       <br>
+       
+       <br>
+       <input type="reset">
+   
+   
+       </fieldset>
+   
+       <fieldset>
+           <legend>Course Details:</legend>
+           <label>Select Course</label>
+           <select name="Course">
+               <option value="Java full stack">Java Full Stack</option>
+               <option value="Dsa">DSA</option>
+           </select>
+           <br>
+           <label>Delivery mode</label><input type="checkbox" name="mode1" value=""ON>Online
+           <input type="checkbox" name="mode2" value="OFF">Offline
+           <br>
+           
+       </fieldset>
+       <button type="submit">SUBMIT</button>
+    </form>
+   
+   
+</body>
+</html>
